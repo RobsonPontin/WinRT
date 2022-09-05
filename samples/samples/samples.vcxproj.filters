@@ -6,12 +6,18 @@
     <ClCompile Include="ConcurrencyTest.cpp">
       <Filter>ConcurrencyTest</Filter>
     </ClCompile>
+    <ClCompile Include="WeakReferenceTest.cpp">
+      <Filter>WeakReferenceTest</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ISample.h" />
     <ClInclude Include="pch.h" />
     <ClInclude Include="ConcurrencyTest.h">
       <Filter>ConcurrencyTest</Filter>
+    </ClInclude>
+    <ClInclude Include="WeakReferenceTest.h">
+      <Filter>WeakReferenceTest</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -21,6 +27,9 @@
   <ItemGroup>
     <Filter Include="ConcurrencyTest">
       <UniqueIdentifier>{c9061f0f-de13-4187-88dc-2cbab2a19958}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WeakReferenceTest">
+      <UniqueIdentifier>{20d52c45-8b6d-434b-a754-dae834ae24d1}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

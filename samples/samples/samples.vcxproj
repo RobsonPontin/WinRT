@@ -104,6 +104,7 @@
     <ClInclude Include="ConcurrencyTest.h" />
     <ClInclude Include="ISample.h" />
     <ClInclude Include="pch.h" />
+    <ClInclude Include="WeakReferenceTest.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ConcurrencyTest.cpp" />
@@ -111,6 +112,7 @@
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader>Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="WeakReferenceTest.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

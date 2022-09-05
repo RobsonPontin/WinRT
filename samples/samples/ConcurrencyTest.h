@@ -134,6 +134,8 @@ struct ConcurrencyTest : ISample
 
 	void Run()
 	{
+		PrintIt("Concurrency test started!");
+
 		// Example 1
 		//ProcessFeedAsync();
 

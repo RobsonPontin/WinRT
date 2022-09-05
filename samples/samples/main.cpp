@@ -1,6 +1,6 @@
 ﻿#include "pch.h"
 #include "ConcurrencyTest.h"
-
+#include "WeakReferenceTest.h"
 
 int main()
 {
@@ -8,4 +8,7 @@ int main()
 
 	ConcurrencyTest cTest;
 	cTest.Run();
+
+	WeakReferenceTest wTest;
+	wTest.Run();
 }
