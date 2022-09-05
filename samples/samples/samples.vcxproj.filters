@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="ConcurrencyTest.cpp">
+      <Filter>ConcurrencyTest</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ISample.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="ConcurrencyTest.h">
+      <Filter>ConcurrencyTest</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="PropertySheet.props" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="ConcurrencyTest">
+      <UniqueIdentifier>{c9061f0f-de13-4187-88dc-2cbab2a19958}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
